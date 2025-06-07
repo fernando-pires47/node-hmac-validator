@@ -1,0 +1,20 @@
+{
+  "name": "node-hmac-validator",
+  "version": "1.0.0",
+  "description": "Simple HMAC validator",
+  "author": "Fernando Pires",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
